@@ -23,6 +23,26 @@ $aux=$cita->add();
 if($aux[0]==1){
    core::alert("Su cita ha ingresado con exito al sistema");
    print "<script>window.location='index.php?view=Cita/UserCita';</script>";
+
+   $data = [
+      'phone' => '573015256417', // Receivers phone
+  
+      'body' => "UN CLIENTE ACABA DE SOLICITAR UNA *CITA* \n INGRESO CON EL NOMBRE DE [*trabajado en este dato*] ", // Message
+  ];
+  $json = json_encode($data); // Encode data to JSON
+  // URL for request POST /message
+  $token = '5dl7xplzo2r32lhl';
+  $instanceId = '260956';
+  $url = 'https://api.chat-api.com/instance'.$instanceId.'/message?token='.$token;
+  // Make a POST request
+  $options = stream_context_create(['http' => [
+          'method'  => 'POST',
+          'header'  => 'Content-type: application/json',
+          'content' => $json
+      ]
+  ]);
+  // Send a request
+  $result = file_get_contents($url, false, $options);
    
 }else{
    core::alert("Error al ingresar su Cita");
