@@ -21,7 +21,7 @@ $aux=$cita->add();
 
 
 if($aux[0]==1){
-   core::alert("Su cita ha ingresado con exito al sistema");
+   core::alert("Su lavado ha ingresado con exito al sistema");
    print "<script>window.location='index.php?view=Cita/UserCita';</script>";
 
    $cliente=ClienteData::getByCC($cedula);
