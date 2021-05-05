@@ -33,8 +33,8 @@ if($aux[0]==1){
   ];
   $json = json_encode($data); // Encode data to JSON
   // URL for request POST /message
-  $token = '49mp065yqg0sy42k';
-  $instanceId = '263969';
+  $token = ' ihdrcqqh6f0routa';
+  $instanceId = '265655';
   $url = 'https://api.chat-api.com/instance'.$instanceId.'/message?token='.$token;
   // Make a POST request
   $options = stream_context_create(['http' => [
@@ -48,7 +48,7 @@ if($aux[0]==1){
    
 }else{
    core::alert("Error al ingresar su Cita");
-print "<script>window.location='index.php?view=Cita/UserCita';</script>";
+   print "<script>window.location='index.php?view=Cita/UserCita';</script>";
 }
 
 
