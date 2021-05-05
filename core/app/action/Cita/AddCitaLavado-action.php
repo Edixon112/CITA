@@ -22,7 +22,7 @@ $aux=$cita->add();
 
 if($aux[0]==1){
    core::alert("Su lavado ha ingresado con exito al sistema");
-   print "<script>window.location='index.php?view=Cita/UserCita';</script>";
+   
 
    $cliente=ClienteData::getByCC($cedula);
 
@@ -45,6 +45,8 @@ if($aux[0]==1){
   ]);
   // Send a request
   $result = file_get_contents($url, false, $options);
+
+  print "<script>window.location='index.php?view=Cita/UserCita';</script>";
    
 }else{
    core::alert("Error al ingresar su Cita");
