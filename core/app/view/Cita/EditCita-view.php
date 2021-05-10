@@ -17,57 +17,8 @@
                 <div class="form-row"> 
                  <!--info oculta-->
 				   <input type="text" style="display: none" name="id" id="id" value="<?php echo $cita->id;?>" readonly="true"  required />
-                    <!--div class="col-md-4 mb-3">
-                       <label for="nombre">Nombre</label>
-                       <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" value="" required>
-                       <div class="valid-feedback">
-                          Nombre valido
-                       </div>
-                       <div class="invalid-feedback">
-                          Por favor ingrese un nombre 
-                       </div>
-                    </div>
-                    <div class="col-md-4 mb-3">
-                       <label for="apellido">Apellido</label>
-                       <input type="text" class="form-control" id="apellido" placeholder="ingrese su apellido" value="" required>
-                       <div class="valid-feedback">
-                          Apellido valido
-                       </div>
-                       <div class="invalid-feedback">
-                          Por favor ingrese un apellido 
-                       </div>
-                    </div-->                    <!--div class="col-md-6 col-lg-6">
-                         <div class="card mg-b-20">
-                            <div class="card-header">
-                               <h4 class="card-header-title">
-                                  Single Date Picker
-                               </h4>                            </div>
-                            <div class="card-body collapse show" id="collapse1">
-                               <p>Datepicker will automatically initialize on elements with class <code>.datepicker-here</code>, options may be sent via data attributes.</p>
-                               <div class="form-group">											
-                                  <input type='text' id="fecha" name="fecha" class="form-control datepicker-here" placeholder="Select Date" />
-                               </div>
-                            </div>
-                         </div>
-                      </div>                      <div class="col-md-6 col-lg-6">
-                         <div class="card mg-b-20">
-                            <div class="card-header">
-                               <h4 class="card-header-title">
-                                  Default Time Picker
-                               </h4>                            </div>
-                            <div class="card-body collapse show" id="collapse1">
-                               <p><code>data-provide="timepicker"</code> applies to <em>.form-control</em></p>
-                               <input type="text" id="hora" name="hora" class="form-control" data-provide="timepicker">
-                               <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
-                            </div>
-                         </div>
-                      </div-->                    <!--div class="col-md-6 mb-3">
-                       <label for="celular">Numero de telefono</label>
-                       <input type="text" class="form-control" id="celular" placeholder="State" required>
-                       <div class="invalid-feedback">
-                          Por favor ingrese su numero de telefono.
-                       </div>
-                    </div-->                    <div class="col-md-6 mb-3">
+                   
+               <div class="col-md-6 mb-3">
                         <label for="cc">Ingrese la Fecha Y Hora para lavar su vehiculo</label>
                         <div class="input-group">
                             <div class="input-group-prepend">
@@ -95,6 +46,7 @@
                 </div>   
                 <button class="btn btn-custom-primary" type="submit">Enviar</button>
             </form>
+            
         </div>
     </div>
 </div>

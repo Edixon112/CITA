@@ -1,116 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Parallo - About Page</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-style.css" />
-  </head>
-  <body id="aboutPage">
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-01.jpg">
-      <div class="container-fluid">
-        <div class="row tm-brand-row">
-          <div class="col-lg-4 col-11">
-            <div class="tm-brand-container tm-bg-white-transparent">
-              <i class="fas fa-2x fa-pen tm-brand-icon"></i>
-              <div class="tm-brand-texts">
-                <h1 class="text-uppercase tm-brand-name">Parallo</h1>
-                <p class="small">new app landing page</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 col-1">
-            <div class="tm-nav">
-              <nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.html"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item green-highlight active">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="testimonials.html">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
 
         <!-- About -->
         <section class="row" id="tmAbout">
           <header class="col-12 tm-about-header">
-            <h2 class="text-uppercase text-center text-dark tm-about-page-title">About this app</h2>
+            <h2 class="text-uppercase text-center text-dark tm-about-page-title">Acerca de este Sofware</h2>
             <hr class="tm-about-title-hr">
           </header>
           <div class="col-lg-4">
             <div class="tm-bg-black-transparent tm-about-box">
-              <div class="tm-about-number-container">0.1</div>              
-              <h3 class="tm-about-name">Best Quality</h3>
-              <p class="tm-about-description">
-                Integer dapibus aliquam accumsan. Nam diam elit, mollis quis elit sed, hendrerit dapibus eros. Cras auctor laoreet tortor eget. BG #0F1D20
+              <div class="tm-about-number-container">1</div>              
+              <h3 class="tm-about-name">Facilita su lavado</h3>
+              <p class="text-white">
+                Puede ingresar a la pagina web y <a rel="lavado" href="index.php?view=Cita/Principal">Solicitar su lavado</a>
               </p>
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="tm-bg-black-transparent tm-about-box">
-              <div class="tm-about-number-container">0.2</div>              
-              <h3 class="tm-about-name">Satisfaction</h3>
-              <p class="tm-about-description">
-                Parallo is a HTML landing page template based on Bootstrap v4.3.1 framework. Please tell your friends about TemplateMo.
+              <div class="tm-about-number-container">2</div>              
+              <h3 class="tm-about-name">Seguridad</h3>
+              <p class="text-white">
+                puede ingrsar y solicitar disponibilidad para su lavado sin exponerse al contacto con muchas personas.
+                acorde a la ley se seguridad 
               </p>
-              <a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">More</a>
+              <!--a href="#tmFeatures" class="btn btn-tertiary tm-btn-app-feature">More</a-->
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="tm-bg-black-transparent tm-about-box">
-              <div class="tm-about-number-container">0.3</div>              
-              <h3 class="tm-about-name">High Return</h3>
-              <p class="tm-about-description">
-                You are allowed to use this for commercial purpose or personal site.
+              <div class="tm-about-number-container">3</div>              
+              <h3 class="tm-about-name">Informacion</h3>
+              <p class="text-white">
+               Estara informado por medio de mensajes en <a class = "text-success"> Whatsapp </a> en el momento que acepten el lavado otro mensaje al iniciar el lavado
+               y otro al terminar el lavado.
               </p>
-              <p class="tm-about-description">
+              <!--p class="tm-about-description">
              	You are NOT allowed to redistribute this template on any download site or template collection sites.
               </p>
-              <a href="#tmFeatures" class="btn btn-secondary tm-btn-app-feature">Details</a>
+              <a href="#tmFeatures" class="btn btn-secondary tm-btn-app-feature">Details</a-->
             </div>
           </div>
         </section>
 
-        <!-- App Features -->
+        <!-- App Features >
         <section id="tmAppFeatures">
             <div class="row">
                 <header class="col-12 text-center text-white tm-bg-black-transparent p-5 tm-app-header">
@@ -167,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div-->
           
         </section>
 
@@ -182,8 +116,4 @@
       <!-- .container-fluid -->
     </div>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+

@@ -1,15 +1,8 @@
-<!DOCTYPE html>  
-<html>  
-<head>   <title>auto lavado</title>  
-</head>  
-<body>  
 <!DOCTYPE html>
-<html lang="zxx">
-   
-<!-- Mirrored from colorlib.net/metrical/light/table-datatable.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Jan 2020 21:19:24 GMT -->
-<head>
-      <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <meta charset="utf-8">
+<html lang="en">
+  <head>
+           <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+           <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="">
@@ -41,547 +34,176 @@
       <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-   </head>
-   <body>
-      <!--================================-->
-      <!-- Page Container Start -->
-      <!--================================-->
-      <div class="page-container">
-         <!--================================-->
-         <!-- Page Sidebar Start -->
-         <!--================================-->
-         <div class="page-sidebar">
-            <div class="logo">
-               <a class="logo-img" href="index.php?">		
-               <img class="desktop-logo" src="assets/images/LOGOEB.jpeg" alt="">
-               <img class="small-logo" src="assets/images/EB.jpeg" alt="">
-               </a>			
-               <i class="ion-ios-close-empty" id="sidebar-toggle-button-close"></i>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>lavado</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>    
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+<!--
+Parallo Template
+https://templatemo.com/tm-534-parallo
+-->
+  </head>
+  <body>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/agua2.jpg">
+      <div class="container-fluid">
+        <div class="row tm-brand-row">
+          <div class="col-lg-4 col-11">
+            <div class="tm-brand-container tm-bg-white-transparent">
+              <i class="fas fa-2x fa-pen tm-brand-icon"></i>
+              <div class="tm-brand-texts">
+                <h1 class="text-uppercase tm-brand-name">Autolavado</h1>
+                <p class="small">Bienvenido</p>
+              </div>
             </div>
-            <!--================================-->
-            <!-- Sidebar Menu Start -->
-            <!--================================-->
-            <div class="page-sidebar-inner">
-               <div class="page-sidebar-menu">
-                  <ul class="accordion-menu">
-                     <li>
-                         
-                     </li>
+          </div>
+          <div class="col-lg-8 col-1">
+            <div class="tm-nav">
+              <nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
+                <button class="navbar-toggler" type="button"
+                  data-toggle="collapse" data-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="index.php?view=Cita/Principal">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="index.php?view=Cita/Nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="index.php?view=Cita/Services">Servicios</a>
+                    </li>
+                    <!--li class="nav-item">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="index.php?view=Cita/Testimonio">Testimo</a>
+                    </li-->
+                    <li class="nav-item">
+                      <div class="tm-nav-link-highlight"></div>
+                      <a class="nav-link" href="index.php?view=Cita/Contacto">Contacto</a>
+                    </li>
                   </ul>
-               </div>
+                </div>
+              </nav>
             </div>
-            <!--/ Sidebar Menu End -->
-            <!--================================-->
-            <!-- Sidebar Footer Start -->
-            <!--================================-->
-            <div class="sidebar-footer">									
-               <a class="pull-left" href="page-profile.html" data-toggle="tooltip" data-placement="top" data-original-title="Profile">
-               <i data-feather="user" class="ht-15"></i></a>									
-               <a class="pull-left " href="mailbox.html" data-toggle="tooltip" data-placement="top" data-original-title="Mailbox">
-               <i data-feather="mail" class="ht-15"></i></a>
-               <a class="pull-left" href="page-unlock.html" data-toggle="tooltip" data-placement="top" data-original-title="Lockscreen">
-               <i data-feather="lock" class="ht-15"></i></a>
-               <a class="pull-left" href="./logout.php" data-toggle="tooltip" data-placement="top" data-original-title="Sing Out">
-               <i data-feather="log-out" class="ht-15"></i></a>
-            </div>
-            <!--/ Sidebar Footer End -->
-         </div>
-         <!--/ Page Sidebar End -->
-         <!--================================-->
-         <!-- Page Content Start -->
-         <!--================================-->
-         <div class="page-content">
-            <!--================================-->
-            <!-- Page Header Start -->
-            <!--================================-->
-            <div class="page-header">
-               <div class="search-form">
-                  <form action="#" method="GET">
-                     <div class="input-group">
-                        <input class="form-control search-input" name="search" placeholder="Type something..." type="text"/>
-                        <span class="input-group-btn">
-                        <span id="close-search"><i class="ion-ios-close-empty"></i></span>
-                        </span>
-                     </div>
-                  </form>
-               </div>
-               <!--================================-->
-               <!-- Page Header  Start -->
-               <!--================================-->
-               <nav class="navbar navbar-expand-lg">
-                  <ul class="list-inline list-unstyled mg-r-20">
-                     <!-- Mobile Toggle and Logo -->
-                     <li class="list-inline-item align-text-top"><a class="hidden-md hidden-lg" href="#" id="sidebar-toggle-button"><i class="ion-navicon tx-20"></i></a></li>
-                     <!-- PC Toggle and Logo -->
-                     <li class="list-inline-item align-text-top"><a class="hidden-xs hidden-sm" href="#" id="collapsed-sidebar-toggle-button"><i class="ion-navicon tx-20"></i></a></li>
-                  </ul>
-                  <!--================================-->
-                  <!-- Mega Menu Start -->
-                  <!--================================-->
-                  <div class="collapse navbar-collapse">
-                     <ul class="navbar-nav mr-auto">
-                        <!-- Features -->
-                        
-                        <!-- Technology -->
-                       
-                        <!-- Ecommerce -->
-                       
-                     </ul>
-                  </div>
-                  <!--/ Mega Menu End-->
-                  <!--/ Brand and Logo End -->
-                  <!--================================-->
-                  <!-- Header Right Start -->
-                  <!--================================-->
-                  <div class="header-right pull-right">
-                     <ul class="list-inline justify-content-end">
-                        <li class="list-inline-item align-middle"><a  href="#" id="search-button"><i class="ion-ios-search-strong tx-20"></i></a></li>
-                        <!--================================-->
-                        <!-- Languages Dropdown Start -->
-                        <!--================================-->
-                        <li class="list-inline-item align-middle dropdown hidden-xs">
-                           <a  href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <i class="flag-icon flag-icon-us"></i>
-                           </a>
-                           <ul class="dropdown-menu languages-dropdown shadow-2">
-                              <li>
-                                 <a href="#" data-lang="en"><i class="flag-icon flag-icon-us mr-2"></i><span>English-US</span></a>
-                              </li>
-                              <li>
-                                 <a href="#" data-lang="es"><i class="flag-icon flag-icon-es mr-2"></i><span>Spanish</span></a>
-                              </li>
-                              <li>
-                                 <a href="#" data-lang="fr"><i class="flag-icon flag-icon-fr mr-2"></i><span>French</span></a>
-                              </li>
-                              <li>
-                                 <a href="#" data-lang="gr"><i class="flag-icon flag-icon-de mr-2"></i><span>German</span></a>
-                              </li>
-                              <li>
-                                 <a href="#" data-lang="ru"><i class="flag-icon flag-icon-ru mr-2"></i><span>Russian</span></a>
-                              </li>
-                              <li>
-                                 <a href="#" data-lang="ru"><i class="flag-icon flag-icon-gb mr-2"></i><span>English-UK</span></a>
-                              </li>
-                           </ul>
-                        </li>
-                        <!--/ Languages Dropdown End -->
-                        <!--================================-->
-                        <!-- Notifications Dropdown Start -->
-                        <!--================================-->
-                        <li class="list-inline-item dropdown hidden-xs">
-                           <a class="notification-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <i class="icon-bell tx-16"></i>
-                           <span class="notification-count wave in"></span>
-                           </a>
-                           <div class="dropdown-menu dropdown-menu-right shadow-2">
-                              <!-- Top Notifications Area -->
-                              <div class="top-notifications-area">
-                                 <!-- Heading -->
-                                 <div class="notifications-heading">
-                                    <div class="heading-title">
-                                       <h6>Notifications</h6>
-                                    </div>
-                                    <span>5+ New Notifications</span>
-                                 </div>
-                                 <div class="notifications-box" id="notificationsBox">
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="wd-45 ht-38 mg-r-15 d-flex align-items-center justify-content-center rounded-circle card-icon-success">
-                                             <i class="fa fa-smile-o tx-success tx-16"></i>
-                                          </div>
-                                          <div>
-                                             <span>Your order is placed</span>
-                                             <span class="small tx-gray-600 ft-right">Jun 10</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry.</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="wd-45 ht-38 mg-r-15 d-flex align-items-center justify-content-center rounded-circle card-icon-warning">
-                                             <i class="fa fa-bell tx-warning tx-16"></i>
-                                          </div>
-                                          <div>
-                                             <span>Your item is shipped</span>
-                                             <span class="small tx-gray-600 ft-right">Jun 05</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry.</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="wd-45 ht-38 mg-r-15 d-flex align-items-center justify-content-center rounded-circle card-icon-success">
-                                             <i class="fa fa-check tx-success tx-16"></i>
-                                          </div>
-                                          <div>
-                                             <span>New Message received</span>
-                                             <span class="small tx-gray-600 ft-right">Jun 02</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry.</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="wd-45 ht-38 mg-r-15 d-flex align-items-center justify-content-center rounded-circle card-icon-danger">
-                                             <i class="fa fa-heartbeat tx-danger tx-16"></i>
-                                          </div>
-                                          <div>
-                                             <span>Payment failed!</span>
-                                             <span class="small tx-gray-600 ft-right">May 29</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry.</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="wd-45 ht-38 mg-r-15 d-flex align-items-center justify-content-center rounded-circle card-icon-primary">
-                                             <i class="fa fa-info tx-info tx-16"></i>
-                                          </div>
-                                          <div>
-                                             <span>New document available</span>
-                                             <span class="small tx-gray-600 ft-right">May 25</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry.</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="wd-45 ht-38 mg-r-15 d-flex align-items-center justify-content-center rounded-circle card-icon-primary">
-                                             <i class="fa fa-info tx-info tx-16"></i>
-                                          </div>
-                                          <div>
-                                             <span>New document available</span>
-                                             <span class="small tx-gray-600 ft-right">May 08</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry.</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                 </div>
-                                 <div class="notifications-footer">
-                                    <a href="#">View all Notifications</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </li>
-                        <!--/ Notifications Dropdown End -->
-                        <!--================================-->
-                        <!-- Messages Dropdown Start -->
-                        <!--================================-->
-                        <li class="list-inline-item dropdown hidden-xs">
-                           <a class="message-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <i class="icon-envelope tx-16"></i>
-                           <span class="messages-count wave in"></span>
-                           </a>
-                           <div class="dropdown-menu dropdown-menu-right shadow-2">
-                              <div class="top-message-area">
-                                 <div class="top-message-heading">
-                                    <div class="heading-title">
-                                       <h6>Messages</h6>
-                                    </div>
-                                    <span>5+ New Messages</span>
-                                 </div>
-                                 <div class="message-box" id="messageBox">
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="pd-r-15">
-                                             <span class="avatar avatar-online">
-                                             <img src="assets/images/avatar/avatar1.png" class="img-fluid" alt="">
-                                             <i></i>
-                                             </span>
-                                          </div>
-                                          <div>
-                                             <span>Mary Adams</span>
-                                             <span class="small tx-gray-600 ft-right">30 minutes ago</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry...</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="pd-r-15">
-                                             <span class="avatar avatar-online">
-                                             <img src="assets/images/avatar/avatar2.png" class="img-fluid" alt="">
-                                             <i></i>
-                                             </span>
-                                          </div>
-                                          <div>
-                                             <span>Richards Caleb</span>
-                                             <span class="small tx-gray-600 ft-right">12 hours ago</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry...</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="pd-r-15">
-                                             <span class="avatar avatar-busy">
-                                             <img src="assets/images/avatar/avatar3.png" class="img-fluid" alt="">
-                                             <i></i>
-                                             </span>
-                                          </div>
-                                          <div>
-                                             <span>Lane Richards</span>
-                                             <span class="small tx-gray-600 ft-right">2 days ago</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry...</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="pd-r-15">
-                                             <span class="avatar avatar-busy">
-                                             <img src="assets/images/avatar/avatar4.png" class="img-fluid" alt="">
-                                             <i></i>
-                                             </span>
-                                          </div>
-                                          <div>
-                                             <span>Edward Lane</span>
-                                             <span class="small tx-gray-600 ft-right">3 days ago</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry...</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="pd-r-15">
-                                             <span class="avatar avatar-offline">
-                                             <img src="assets/images/avatar/avatar5.png" class="img-fluid" alt="">
-                                             <i></i>
-                                             </span>
-                                          </div>
-                                          <div>
-                                             <span>Lane Richards</span>
-                                             <span class="small tx-gray-600 ft-right">2 days ago</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry...</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                    <a class="dropdown-item list-group-item" href="javascript:void(0)">
-                                       <div class="d-flex justify-content-between">
-                                          <div class="pd-r-15">
-                                             <span class="avatar avatar-offline">
-                                             <img src="assets/images/avatar/avatar6.png" class="img-fluid" alt="">
-                                             <i></i>
-                                             </span>
-                                          </div>
-                                          <div>
-                                             <span>Edward Lane</span>
-                                             <span class="small tx-gray-600 ft-right">3 days ago</span>
-                                             <div class="tx-gray-600 tx-11">Dummy text of the printing and type setting industry...</div>
-                                          </div>
-                                       </div>
-                                    </a>
-                                 </div>
-                                 <div class="top-message-footer">
-                                    <a href="#">View all Messages</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </li>
-                        <!--/ Messages Dropdown End -->
-                        <!--================================-->
-                        <!-- Profile Dropdown Start -->
-                        <!--================================-->
-                        <li class="list-inline-item dropdown">
-                           <a  href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <span class="select-profile">Hi</span>
-                           <img src="assets/images/avatar/avatar1.png" class="img-fluid wd-35 ht-35 rounded-circle" alt="">
-                           </a>
-                           <div class="dropdown-menu dropdown-menu-right dropdown-profile shadow-2">
-                              <div class="user-profile-area">
-                                 <div class="user-profile-heading">
-                                    <div class="profile-thumbnail">
-                                       <img src="assets/images/avatar/avatar1.png" class="img-fluid wd-35 ht-35 rounded-circle" alt="">
-                                    </div>
-                                    <div class="profile-text">
-                                       <h6>John Deo</h6>
-                                       <span>email@example.com</span>
-                                    </div>
-                                 </div>
-                                 <a href="#" class="dropdown-item"><i class="icon-user" aria-hidden="true"></i> My profile</a>
-                                 <a href="#" class="dropdown-item"><i class="icon-envelope" aria-hidden="true"></i> Messages <span class="badge badge-success ft-right mg-t-3">10+</span></a>
-                                 <a href="#" class="dropdown-item"><i class="icon-settings" aria-hidden="true"></i> settings</a>
-                                 <a href="#" class="dropdown-item"><i class="icon-share" aria-hidden="true"></i> My Activity <span class="badge badge-warning ft-right mg-t-3">5+</span></a>
-                                 <a href="#" class="dropdown-item"><i class="icon-cloud-download" aria-hidden="true"></i> My Download <span class="badge badge-success ft-right mg-t-3">10+</span></a>
-                                 <a href="#" class="dropdown-item"><i class="icon-heart" aria-hidden="true"></i> Support</a>
-                                 <a href="./logout.php" class="dropdown-item"><i class="icon-power" aria-hidden="true"></i> Sign-out</a>
-                              </div>
-                           </div>
-                        </li>
-                        <!-- Profile Dropdown End -->
-                        <!--================================-->
-                        <!-- Setting Sidebar Start -->
-                        <!--================================-->
-                        <li class="list-inline-item dropdown hidden-xs">
-                           <a class="settings-icon" id="settingSidebarTrigger" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           <i class="icon-settings tx-16"></i>
-                           </a>					   
-                        </li>
-                        <!--/ Setting Sidebar End -->
-                     </ul>
-                  </div>
-                  <!--/ Header Right End -->
-               </nav>
-            </div>
-            <!--/ Page Header End -->
-            <!--================================-->
-            <!-- Page Inner Start -->
-            <!--================================-->
-            <div class="page-inner">
-               <!--================================-->
-               <!-- Main Wrapper Start -->
-               <!--==============LAS LLAMADAS A LOS DEMAS==================-->
-               		
-                <?php   View::load("Cita/UserCita"); ?>
+          </div>
+        </div>
+                <?php   View::load("Cita/Principal"); ?>
 
-               <!--/ Main Wrapper End -->
-               </div>
-            <!--/ Page Inner End -->
-            <!--================================-->
-            <!-- Page Footer Start -->	
-            <!--================================-->
-            <!--footer class="page-footer">
-               <div class="pd-t-4 pd-b-0 pd-x-20">
-                  <div class="tx-10 tx-uppercase">
-                     <p class="pd-y-10 mb-0">Copyright&copy; 2019 | All rights reserved. | Created By <a href="http://themeforest.net/user/colorlibcode" target="_blank">ColorlibCode</a></p>
-                  </div>
-               </div>
-            </footer-->
-            <!--/ Page Footer End -->
-         </div>
-         <!--/ Page Content End  -->
-      </div>
-      <!--/ Page Container End -->
-               
+       </div>
+      <!-- .container-fluid -->
+    </div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script>
+        $(function(){
+            $('.tabgroup > div').hide();
+            $('.tabgroup > div:first-of-type').show();  
+            $('.tabs a').click(function(e){
+              e.preventDefault();
+              var $this = $(this),
+                  tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
+                  others = $this.closest('li').siblings().children('a'),
+                  target = $this.attr('href');
+              others.removeClass('active');
+              $this.addClass('active');
+              $(tabgroup).children('div').hide();
+              $(target).show();
 
-      
-      <!--================================-->
-      <!-- Scroll To Top Start-->
-      <!--================================-->	
-      <a href="#" data-click="scroll-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
-      <!--/ Scroll To Top End -->
-      <!--================================-->
-          
-      <!--================================-->
-      <!-- Demo Sidebar Start -->
-      <!--================================-->	  
-      <!-- <div class="setting-sidebar" id="demoSettingSidebar">
-         <div class="wrapper" id="demoSettingSidebarScroll">
-            <a class="demo-settings-icon" id="demoSettingSidebarTrigger" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="icon-settings tx-16"></i>
-            </a>	
-            <ul class="nav nav-tabs nav-pills nav-fill">
-               <li class="nav-item">
-                  <a class="nav-link active show" data-toggle="tab" href="#nav-dashboard">Dashboard</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#nav-frontend">Frontend</a>
-               </li>
-            </ul> -->
-            <!-- Backend Dashboard -->
-           <!-- <div class="tab-content">
-               <div class="tab-pane fade active show" id="nav-dashboard">
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Default Version</h5>
-                     <img src="assets/images/demo/dashboard/index1.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Semi-Dark Version</h5>
-                     <img src="assets/images/demo/dashboard/dark-index1.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/semi-dark/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Dark Version</h5>
-                     <img src="assets/images/demo/dashboard/full-dark-index1.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/dark/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Boxed Version</h5>
-                     <img src="assets/images/demo/dashboard/boxed-index1.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/boxed/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30">						
-                     <a href="http://themeforest.net/item/metrical-multipurpose-bootstrap4-admin-dashboard-template/24250418" target="_blank" class="btn btn-lg btn-primary btn-block">Download Now</a>
-                  </div>
-               </div> -->
-               <!-- Frontend Templates -->
-               <!--<div class="tab-pane fade" id="nav-frontend">
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Ecommerce</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/ecommerce/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Cryptocurrency</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/cryptocurrency/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Helpdesk Center</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/helpdesk/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Project Management</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/project/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Server Management</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/server/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Education</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/education/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Event Management</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/event/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30 tx-center bd">
-                     <h5 class="tx-dark tx-13 pd-y-10 bd-b mb-0">Social Activity</h5>
-                     <img src="assets/images/demo/frontend/coming-soon.png" alt="" class="img-fluid d-block m-auto">
-                     <span class="d-block pd-10 bd-t">						
-                     <a href="http://colorlib.net/metrical/templates/social/index.html" target="_blank" class="btn btn-sm btn-primary">Live Preview</a>
-                     </span>
-                  </div>
-                  <div class="mg-y-30">						
-                     <a href="http://themeforest.net/item/metrical-multipurpose-bootstrap4-admin-dashboard-template/24250418" target="_blank" class="btn btn-lg btn-primary btn-block">Download Now</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!--/ Demo Sidebar End  -->
-      <!--================================-->
-      <!-- Footer Script -->
+              // Scroll to tab content (for mobile)
+              if($(window).width() < 992) {
+                  $('html, body').animate({
+                      scrollTop: $("#first-tab-group").offset().top
+                  }, 200);    
+              }              
+            })  
+        });
+        
+    </script>
+    <script>
+        $(function(){
+            $('.tabgroup > div').hide();
+            $('.tabgroup > div:first-of-type').show();  
+            $('.tabs a').click(function(e){
+              e.preventDefault();
+              var $this = $(this),
+                  tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
+                  others = $this.closest('li').siblings().children('a'),
+                  target = $this.attr('href');
+              others.removeClass('active');
+              $this.addClass('active');
+              $(tabgroup).children('div').hide();
+              $(target).show();
+
+              // Scroll to tab content (for mobile)
+              if($(window).width() < 992) {
+                  $('html, body').animate({
+                      scrollTop: $("#first-tab-group").offset().top
+                  }, 200);    
+              }              
+            })
+
+            $('.tm-carousel').slick({
+                dots: true,
+                  infinite: false,
+                  arrows: false,
+                  speed: 300,
+                  slidesToShow: 3,
+                  slidesToScroll: 2,
+                  responsive: [
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                          arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                      }
+                    },
+                    {
+                      breakpoint: 600,
+                      settings: {
+                          arrows: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                          arrows: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                  ]
+            });  
+        });
+    </script>
+
+    
+          <!-- Footer Script -->
       <!--================================-->
       <script src="assets/plugins/jquery/jquery.min.js"></script>
       <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
@@ -652,7 +274,7 @@
          }
          }
          })
-      </script>---
+      </script>
            <script>
          // Example starter JavaScript for disabling form submissions if there are invalid fields
          (function() {
@@ -672,7 +294,7 @@
              });
            }, false);
          })();
-      </script>---
+      </script>
       <script>
          // Basic DataTable	
           $('#basicDataTable').DataTable({
@@ -756,11 +378,5 @@
       $('.dataTables_length').addClass('bs-select');
       });
   </script>
-  
-   </body>
-
-<!-- Mirrored from colorlib.net/metrical/light/table-datatable.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Jan 2020 21:19:25 GMT -->
-</html>
-
-</body>  
-</html>
+  </body>
+</html>           
