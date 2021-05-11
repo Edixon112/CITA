@@ -3,13 +3,15 @@
 date_default_timezone_set("America/Bogota");
 
 $fechaactual=date("Y-m-d H:i:s");
+$temp=date("Y-m-d H:i:s", strtotime($_POST["hora"]));
+
 
 
 $cedula=$_POST["cc"];
 
 $cliente=ClienteData::getByCC($cedula);
 
-if ($_POST["hora"]>$fechaactual){
+if ($temp>$fechaactual){
 
 if ($cliente!=NULL ){
 
