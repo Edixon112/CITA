@@ -13,7 +13,7 @@ $cliente=ClienteData::getByCC($cedula);
 
 if ($temp>$fechaactual){
 
-   if ($cliente!=NULL ){
+   if ($cliente!=NULL){
 
    $cita= new CitaData();
 
@@ -28,7 +28,7 @@ if ($temp>$fechaactual){
 
       if($aux[0]==1){
          core::alert("Su lavado ha ingresado con exito al sistema");
-         
+
       
          $cliente=ClienteData::getByCC($cedula);
       
@@ -36,24 +36,24 @@ if ($temp>$fechaactual){
          $mensaje="EL CLIENTE *".$cliente->nombre." ".$cliente->apellido."* SOLICITA UN LAVADO PARA LAS *".$cita->fechapedida."*"; // Message
       
          $api=new ApiData();
-         
+
          $api->enviarMensajeAdmin($mensaje);
          $api->enviarMensajeGeneral($mensaje,3015256417);
          //VUE JS
       
-         
+
          Core::redir("./?view=Cita/UserCita");
       
       
       }else{
       
          core::alert("Error al ingresar su Cita ");
-         
+
          Core::redir("./?view=Cita/UserCita");
       
       }
-      
-      
+
+
    }else {
 
       core::alert("Usuario no registrado ");
