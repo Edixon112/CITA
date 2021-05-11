@@ -9,7 +9,7 @@
       <meta name="keyword" content="">
       <meta name="author"  content=""/>
       <!-- Page Title -->
-      <title>DataTable | Metrical - Multipurpose Admin Dashboard Template</title>
+      <title>CITAS</title>
       <!-- Main CSS -->			
       <link type="text/css" rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"/>
       <link type="text/css" rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css"/>
@@ -27,7 +27,7 @@
       <link type="text/css" rel="stylesheet" href="assets/plugins/datepicker/css/datepicker.min.css"><!-- este tiempo-->
       
       <!-- Favicon -->	
-      <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="assets/images/EB.jpeg" type="image/x-icon">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -37,7 +37,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>lavado</title>
+    <title>Lavado</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -57,52 +57,17 @@ https://templatemo.com/tm-534-parallo
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/agua2.jpg">
       <div class="container-fluid">
         <div class="row tm-brand-row">
-          <div class="col-lg-4 col-11">
+          <div class="col-lg-6 offset-md-4">
             <div class="tm-brand-container tm-bg-white-transparent">
-              <i class="fas fa-2x fa-pen tm-brand-icon"></i>
               <div class="tm-brand-texts">
                 <h1 class="text-uppercase tm-brand-name">Autolavado</h1>
-                <p class="small">Bienvenido</p>
+                <p class=" offset-md-4 small">Bienvenido</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-8 col-1">
-            <div class="tm-nav">
-              <nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
-                <button class="navbar-toggler" type="button"
-                  data-toggle="collapse" data-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.php?view=Cita/Principal">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.php?view=Cita/Nosotros">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.php?view=Cita/Services">Servicios</a>
-                    </li>
-                    <!--li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.php?view=Cita/Testimonio">Testimo</a>
-                    </li-->
-                    <li class="nav-item">
-                      <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.php?view=Cita/Contacto">Contacto</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
+
         </div>
-                <?php   View::load("Cita/Principal"); ?>
+                <?php   View::load("Cita/UserCita"); ?>
 
        </div>
       <!-- .container-fluid -->
