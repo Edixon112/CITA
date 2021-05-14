@@ -38,7 +38,7 @@ if ($temp>$fechaactual){
          $api=new ApiData();
 
          $api->enviarMensajeAdmin($mensaje);
-         $api->enviarMensajeGeneral($mensaje,3015256417);
+         //$api->enviarMensajeGeneral($mensaje,3015256417);
          //VUE JS
       
 

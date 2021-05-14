@@ -23,30 +23,12 @@ if($aux[0]==1){
    
    $admins=UserData::getAll();
 
-   foreach($admins as $admin):
-
-      $data = [
-       'phone' => "57".$admin->telefono."", // Receivers phone
    
-       'body' => "EL CLIENTE *".$nombre." ".$apellido."* SE ACABA DE REGISTAR", // Message
-      ];
-      $json = json_encode($data); // Encode data to JSON
-      // URL for request POST /message
-      $token = '1w2qgreajitbgacz';
-      $instanceId = '267919';
-      $url = 'https://api.chat-api.com/instance'.$instanceId.'/message?token='.$token;
-      // Make a POST request
-      $options = stream_context_create(['http' => [
-             'method'  => 'POST',
-             'header'  => 'Content-type: application/json',
-             'content' => $json
-         ]
-      ]);
-   
-      // Send a request
-      $result = file_get_contents($url, false, $options);
+      $mensaje="EL CLIENTE *".$nombre." ".$apellido."* SE ACABA DE REGISTAR"; // Message
 
-   endforeach;
+      $api=new ApiData();
+
+      $api->enviarMensajeAdmin($mensaje);
   
    core::redir("./?view=Cita/UserCita");
 
