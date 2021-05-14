@@ -24,7 +24,7 @@ if($aux[0]==1){
    $admins=UserData::getAll();
 
    
-      $mensaje="EL CLIENTE *".$nombre." ".$apellido."* SE ACABA DE REGISTAR"; // Message
+      $mensaje="EL CLIENTE *".$nombre." ".$apellido."* SE ACABA DE REGISTAR";
 
       $api=new ApiData();
 
